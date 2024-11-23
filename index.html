@@ -1,0 +1,126 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SortScout - Compare Products</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>SortScout - Product Comparison</h1>
+
+        <!-- Product List -->
+<div class="product-list">
+    <h2>Product List</h2>
+    <table id="productTable">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Review</th>
+                <th>Brand</th>
+                <th>Quality</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Product rows will be added dynamically by JS -->
+        </tbody>
+    </table>
+</div>
+
+<!-- Compare Button -->
+<div class="compare-button">
+    <button id="compareButton">Compare Products</button>
+</div>
+
+<!-- Top 3 Products -->
+<div class="top-products">
+    <h2>Top 3 Products</h2>
+    <div id="topProductsContainer">
+        <!-- Top products will be displayed here dynamically -->
+    </div>
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SortScout - Compare Products</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>SortScout - Product Comparison</h1>
+
+        <!-- Weight Inputs -->
+        <div class="weight-inputs">
+            <h2>Adjust Weights (Default Values: Price 30%, Review 30%, Brand 20%, Quality 20%)</h2>
+            <div class="weight-container">
+                <label>Price Weight:</label>
+                <input type="number" id="priceWeight" min="0" max="100" value="30" />%
+            </div>
+            <div class="weight-container">
+                <label>Review Weight:</label>
+                <input type="number" id="reviewWeight" min="0" max="100" value="30" />%
+            </div>
+            <div class="weight-container">
+                <label>Brand Weight:</label>
+                <input type="number" id="brandWeight" min="0" max="100" value="20" />%
+            </div>
+            <div class="weight-container">
+                <label>Quality Weight:</label>
+                <input type="number" id="qualityWeight" min="0" max="100" value="20" />%
+            </div>
+        </div>
+
+        <!-- Product List -->
+        <div class="product-list">
+            <h2>Product List</h2>
+            <table id="productTable">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Review</th>
+                        <th>Brand</th>
+                        <th>Quality</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Product rows will be added dynamically by JS -->
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Compare Button -->
+        <div class="compare-button">
+            <button id="compareButton">Compare Products</button>
+        </div>
+
+        <!-- Top 3 Products -->
+        <div class="top-products">
+            <h2>Top 3 Products</h2>
+            <div id="topProductsContainer">
+                <!-- Top products will be displayed here dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
